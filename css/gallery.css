@@ -298,7 +298,7 @@ button {
 
 @media (max-width: 550px) {
   .swiper-scrollbar {
-    height: 30px !important;
+    display: none;
   }
   #recipes {
     padding: 40px 40px;
@@ -311,4 +311,9 @@ button {
   .swiper-container {
     display: none;
   }
+
+  #header .header-btn-collapse-nav {
+    background: darkred;
+    margin-top: 30px !important;
+}
 }
