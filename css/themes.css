@@ -6249,7 +6249,7 @@ html.dark .text-muted {
 /* RTL */
 /* #Footer */
 #footer {
-	background: linear-gradient(yellow,red,#010817);
+	background: linear-gradient(red, #532f2a);
 	border-top: 4px solid #212529;
 	font-size: 0.9em;
 	margin-top: 50px;
@@ -6681,9 +6681,7 @@ html.dark .text-muted {
 }
 
 .map-above .map-above-content {
-    background: repeating-linear-gradient(
-45deg
-, red, transparent 100px);
+    background: repeating-linear-gradient( 45deg , black, transparent 100px)
 }
 
 .map-above .map-above-contents {
