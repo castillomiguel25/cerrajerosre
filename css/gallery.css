@@ -289,12 +289,26 @@ button {
   }
 }
 
+
+@media (min-width: 600px) {
+  .swiper-delete {
+    display: none;
+  }
+}
+
 @media (max-width: 550px) {
+  .swiper-scrollbar {
+    height: 30px !important;
+  }
   #recipes {
     padding: 40px 40px;
   }
 
   .swiper {
     width: 80%;
+  }
+
+  .swiper-container {
+    display: none;
   }
 }
