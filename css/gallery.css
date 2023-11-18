@@ -1,3 +1,9 @@
+.img-gallery{
+  height: 400px;
+  width: 400px;
+  border-radius: 30px;
+}
+
 #recipes {
   display: flex;
   flex-direction: column;
@@ -297,6 +303,11 @@ button {
 }
 
 @media (max-width: 550px) {
+  .img-gallery{
+    height: 320px;
+    width: 320px;
+    border-radius: 30px;
+  }
   .swiper-scrollbar {
     display: none;
   }
