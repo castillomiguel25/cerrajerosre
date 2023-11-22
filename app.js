@@ -121,3 +121,13 @@ function closeModal() {
   modal.style.display = "none";
   overlay.style.display = "none";
 }
+
+let miParrafo = document.getElementById('pieFoto');
+let texto = miParrafo.textContent;
+let textoEnMayusculas = texto.toUpperCase();
+miParrafo.textContent = textoEnMayusculas;
+
+let miParrafo2 = document.getElementById('pieFoto2');
+let text = miParrafo2.textContent;
+let textEnMayusculas = text.toUpperCase();
+miParrafo2.textContent = textEnMayusculas;

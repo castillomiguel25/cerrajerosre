@@ -11,6 +11,10 @@ a {
   border-radius: 150px;
 }
 
+.segurity{
+  font-size: 14px;
+}
+
 #header {
   background: #212529;
 }
@@ -21,7 +25,7 @@ a {
 }
 
 #section {
-  background: linear-gradient(red, #532f2a);
+  background: linear-gradient(#0088cc, #532f2a);
 }
 
 #letra {

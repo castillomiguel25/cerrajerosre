@@ -6249,7 +6249,7 @@ html.dark .text-muted {
 /* RTL */
 /* #Footer */
 #footer {
-	background: linear-gradient(red, #532f2a);
+	background: linear-gradient(#0088cc, #532f2a);
 	border-top: 4px solid #212529;
 	font-size: 0.9em;
 	margin-top: 50px;
