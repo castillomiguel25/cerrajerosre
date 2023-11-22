@@ -307,6 +307,9 @@ button {
 }
 
 @media (max-width: 550px) {
+  .post-author {
+    width: 200px;
+  }
   .img-gallery{
     height: 320px;
     width: 320px;
