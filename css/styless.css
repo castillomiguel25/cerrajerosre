@@ -57,14 +57,14 @@ a {
 }
 
 /* Estilos del modal */
-.modal {
+.modal-post {
   display: none;
   position: fixed;
   z-index: 1000;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  /* Estilos restantes para el modal */
+  width: 700px;
 }
 
 /* Estilos del contenido del modal, botón de cerrar, etc. */
@@ -566,9 +566,9 @@ a {
     width: 250px;
   }
 
-  .modal {
+  /* .modal {
     transform: translate(-50%, -20%);
-  }
+  } */
 }
 
 @media only screen and (max-width: 414px) {

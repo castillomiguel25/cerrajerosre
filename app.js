@@ -106,8 +106,8 @@ window.onload = function () {
 };
 
 function openModal() {
-  var modal = document.getElementById("myModal");
-  var overlay = document.getElementById("overlayss");
+  const modal = document.getElementById("myModalss");
+  const overlay = document.getElementById("overlayss");
   modal.style.display = "block";
   overlay.style.display = "block";
   setTimeout(function () {
@@ -116,12 +116,13 @@ function openModal() {
 }
 
 function closeModal() {
-  var modal = document.getElementById("myModal");
-  var overlay = document.getElementById("overlayss");
+  const modal = document.getElementById("myModalss");
+  const overlay = document.getElementById("overlayss");
   modal.style.display = "none";
   overlay.style.display = "none";
 }
 
+// texto en mayusculas
 let miParrafo = document.getElementById('pieFoto');
 let texto = miParrafo.textContent;
 let textoEnMayusculas = texto.toUpperCase();

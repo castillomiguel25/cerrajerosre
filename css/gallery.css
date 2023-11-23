@@ -1,4 +1,4 @@
-.img-gallery{
+.img-gallery {
   height: 400px;
   width: 400px;
   border-radius: 30px;
@@ -122,10 +122,9 @@
 }
 
 .post-name {
-  font-size: 0.9rem;
-  font-weight: 600;
-  margin-bottom: 2px;
-  white-space: nowrap;
+  font-size: 1rem;
+  width: 200px;
+  line-height: 1.5;
 }
 
 .post-author {
@@ -272,8 +271,12 @@ button {
 /* MEDIA QUERIES */
 
 @media (min-width: 1200px) {
-  .swiper-slide{
-    height: 450px !important;
+  .swiper-slide {
+    height: 500px !important;
+  }
+
+  .img-fluid {
+    width: 300px;
   }
 }
 
@@ -310,11 +313,13 @@ button {
   .post-author {
     width: 200px;
   }
-  .img-gallery{
+
+  .img-gallery {
     height: 320px;
     width: 320px;
     border-radius: 30px;
   }
+
   .swiper-scrollbar {
     display: none;
   }
@@ -335,7 +340,8 @@ button {
     background: darkred;
     margin-top: 30px !important;
   }
+
   .post-img {
-     aspect-ratio: 0 !important;
+    aspect-ratio: 0 !important;
   }
 }
