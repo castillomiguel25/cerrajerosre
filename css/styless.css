@@ -24,6 +24,25 @@ a {
   color: white;
 }
 
+.card-img-top{
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-body-presentation{
+  background: #0088cc;
+  color: white;
+}
+
+.card-body-presentation p{
+  color: white;
+}
+
+#boton-ivoox {
+  background: #0088cc;
+  color: white;
+}
+
 #section {
   background: linear-gradient(#0088cc, #532f2a);
 }
@@ -42,6 +61,16 @@ a {
   height: 400px;
   width: 400px;
   border-radius: 10px;
+}
+
+#text-color-primary{
+  color: #0088CC !important
+}
+
+#text-style{
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 /* Estilos para el fondo gris detrás del modal */
