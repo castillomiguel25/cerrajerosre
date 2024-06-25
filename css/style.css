@@ -1,0 +1,14 @@
+.img-shop{
+    height: 50%;
+    width: 50%;
+}
+
+.insta{
+    height: 100px;
+    width: 100px;
+    transition: transform 0.2s;
+}
+
+.insta:hover {
+    transform: scale(1.3);
+}
